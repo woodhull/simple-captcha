@@ -7,8 +7,8 @@ module SimpleCaptcha
   autoload :ViewHelper,        'simple_captcha/view'
   autoload :ControllerHelpers, 'simple_captcha/controller'
 
-  autoload :FormBuilder,       'simple_captcha/form_builder'
-  autoload :CustomFormBuilder, 'simple_captcha/formtastic'
+#  autoload :FormBuilder,       'simple_captcha/form_builder'
+#  autoload :CustomFormBuilder, 'simple_captcha/formtastic'
 
   if defined?(ActiveRecord)
     autoload :ModelHelpers,      'simple_captcha/active_record'
